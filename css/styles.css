@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: Helvetica, Arial, Georgia;
+}
+P {
+    color: black;
+    font-size: 18px;
+    font-family: Helvetica, Arial, Georgia;
+}
+nav#hori {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center the nav items horizontally */
+    align-items: flex-start; /* Align items at the top of the container */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav#hori ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto; /* Center the navbar horizontally */
+    overflow: auto;
+    display: flex; /* For centering */
+    justify-content: center; /* Center items horizontally */
+}
+nav#hori ul li {
+    margin: 0 10px;
+    flex: 1 1 auto; /* Distribute available space evenly */
+}
+nav#hori ul li a {
+    display: flex; /* Use flexbox on the links */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    width: 120px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    border-radius: 3px;
+}
+nav#hori ul li a:hover {
+    background-color: #FFC300;
+    color: darkblue;
+    border-radius: 40px;
+}
+
+
+#monarchBody {
+    background-color: black;
+}
+.pictures h1, .pictures h2, #climate h2, footer P {
+    color: orange;
+}
+.pictures P, #climate P {
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+}
+.pics {
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  width: 50%;
+  height: 200px;
+}
+.pictures {
+    display: flex;
+    align-items: flex-start; /* Align items at the top, or use 'center' for vertical centering */
+    gap: 15px; /* Space between image and text */
+    margin-bottom: 20px; /* Adds space between each image-text pair */
+}
+
+
+#allBody {
+    background-color: #FFFFFF
+}
+#allBody h1 {
+    color: darkblue;
+    font-family: Helvetica, Arial, Georgia;
+}
+#allBody h2 {
+    color: darkblue;
+    font-family: Helvetica, Arial, Georgia;
+}
+#maincontent P {
+    color: darkblue;
+    font-family: Helvetica, Arial, Georgia;
+    font-size: 14px;
+    text-align: left;
+}
+#description P {
+    color: #A3A3A3;
+    font-family: Helvetica, Arial, Georgia;
+}
